@@ -15,7 +15,7 @@ To use this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jinnaWan/merge-function.git
+   git clone <repository_url>
    ```
 
 2. Navigate to the project directory:
@@ -28,6 +28,13 @@ To use this project, follow these steps:
 
    ```bash
    npm install
+   ```
+
+4. If you make changes to `merge.ts` or `merge.test.ts`, compile the TypeScript files by running:
+
+   ```bash
+   npx tsc --init
+   npx tsc
    ```
 
 ## Running Tests
